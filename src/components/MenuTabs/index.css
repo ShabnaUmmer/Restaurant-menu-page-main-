@@ -1,0 +1,24 @@
+.menu-tab-container {
+  overflow-x: auto;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  scrollbar-width: none;
+  box-shadow: 0 0 10px rgba(0.1, 0.1, 0.1, 0.1);
+}
+
+.tab {
+  border: none;
+  background-color: transparent;
+  padding: 20px 30px;
+  cursor: pointer;
+  white-space: nowrap;
+  font-size: 20px;
+}
+.tab.active {
+  border-bottom: 2px solid rgb(245, 72, 19);
+  color: orangered;
+}

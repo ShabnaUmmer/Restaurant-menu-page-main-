@@ -1,0 +1,67 @@
+.modal-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  padding: 20px;
+}
+.close-btn {
+  border: none;
+  background-color: transparent;
+  margin-top: 20px;
+}
+.modal-head {
+  display: flex;
+  flex-direction: column;
+}
+.modal-head.p {
+  color: rgb(91, 89, 89);
+}
+.modal-popup {
+  background-color: rgb(244, 242, 242);
+  border-radius: 20px;
+  margin: 0;
+}
+.addon-category {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px;
+}
+.addon-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 8px 0;
+  cursor: pointer;
+}
+.addon-price {
+  font-weight: 600;
+}
+.addon-name {
+  font-weight: 600;
+}
+.modal-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0 20px;
+}
+.cancel-btn,
+.save-btn {
+  background-color: green;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  padding: 8px;
+}
+.buttons {
+  display: flex;
+  gap: 20px;
+}
